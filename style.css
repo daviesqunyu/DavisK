@@ -63,7 +63,7 @@ h2 {
 .map-section {
   background: transparent; /* no extra box */
   border-radius: 0;
-  padding: 24px 0 24px;
+  padding: 8px 0 24px;
   margin-bottom: 16px;
   border: none;
 }
