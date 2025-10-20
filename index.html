@@ -10,16 +10,24 @@
 <body>
   <main class="invite-card">
     <section class="map-section">
-      <a href="https://www.google.com/maps/place/Milovian+Gardens,+Lower+Kabete" target="_blank" rel="noopener" aria-label="Open Milovian Gardens on Google Maps">
+      <a href="https://www.google.com/maps/dir/?api=1&destination=-1.2374777299031123%2C36.72565765160303" target="_blank" rel="noopener" aria-label="Open directions to Milovian Gardens in Google Maps">
         <img src="map_invite.jpg" alt="Map to Milovian Gardens, Lower Kabete" class="map-img" />
       </a>
       <div class="map-details">
-        <div class="location-name">Milovian Gardens</div>
+        <div class="location-name">
+          <a href="https://www.google.com/maps/place/-1.2374777299031123,36.72565765160303" target="_blank" rel="noopener" aria-label="Open Milovian Gardens location on Google Maps">Milovian Gardens</a>
+        </div>
         <div class="address">Lower Kabete</div>
         <div class="date-time">October 24th, from 3 PM</div>
       </div>
     </section>
-  </main>
+
+    <div class="actions" style="margin-top: 10px;">
+      <a class="directions" href="https://www.google.com/maps/dir/?api=1&destination=-1.2374777299031123%2C36.72565765160303" target="_blank" rel="noopener" aria-label="Navigate with Google Maps">Open in Google Maps</a>
+      <a class="directions" href="https://maps.apple.com/?daddr=-1.2374777299031123,36.72565765160303" target="_blank" rel="noopener" aria-label="Navigate with Apple Maps">Open in Apple Maps</a>
+      <a class="directions" href="https://waze.com/ul?ll=-1.2374777299031123%2C36.72565765160303&navigate=yes" target="_blank" rel="noopener" aria-label="Navigate with Waze">Open in Waze</a>
+      <a class="directions" href="uber://?action=setPickup&pickup=my_location&dropoff[latitude]=-1.2374777299031123&dropoff[longitude]=36.72565765160303&dropoff[nickname]=Milovian%20Gardens" aria-label="Open Uber to this destination">Open in Uber</a>
+    </div>
   </main>
 </body>
 </html>
