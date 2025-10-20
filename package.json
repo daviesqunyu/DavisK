@@ -1,0 +1,23 @@
+{
+  "name": "davis-kunyu-graduation-invitation",
+  "version": "1.0.0",
+  "description": "A beautiful graduation invitation website for Davis Kunyu",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "graduation",
+    "invitation",
+    "website",
+    "static"
+  ],
+  "author": "Davis Kunyu",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
+
